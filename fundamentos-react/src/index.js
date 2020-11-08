@@ -1,3 +1,9 @@
 import ReactDOM from 'react-dom';
+import React from 'react'; //Para usar o JSX
 
-ReactDOM.render("Olá React!!!", document.getElementById('root')); 
+ReactDOM.render(
+  <div>
+    <strong>Olá React!</strong>
+  </div>,
+  document.getElementById('root')
+); 
